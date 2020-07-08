@@ -24,18 +24,18 @@
 int is_prime (int a)
 {
 int i;
-int count;
+int n;
  
-count = 0;
+n = 0;
 
 for(i=1; i<a; i=i+1) 
 {
  if (a%i==0) 
  {
-   count = 1;
+   n = 1;
  }
 }
-   if (count==1)
+   if (n==1)
    {
      return 1;
    }
