@@ -31,7 +31,8 @@ int decimal (char *b)
 {
   int dec = 0;
   int pot = 1;
-  int n, i;
+  int n;
+  int i;
 
   n = strlen (b);
 
@@ -44,7 +45,7 @@ int decimal (char *b)
     pot = pot*2;
   }
 
-  return n;
+  return dec;
 }
 
 #define USAGE "m004 <string>\n"
