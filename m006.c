@@ -28,6 +28,7 @@
 
 void crossprod (int a[3], int b[3], int c[3])
 {
+  c[2]=a[0]*b[1]-a[1]*b[0];
 }
 
 
